@@ -1,0 +1,8 @@
+repos:
+  - repo: local
+    hooks:
+      - id: ruff-custom
+        name: Ruff Custom Command
+        entry: bash -c 'task format'
+        language: system
+        types: [python]
