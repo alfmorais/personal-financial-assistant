@@ -2,7 +2,7 @@ repos:
   - repo: local
     hooks:
       - id: ruff-custom
-        name: Ruff Custom Command
+        name: Format With Ruff
         entry: bash -c 'task format'
         language: system
         types: [python]
